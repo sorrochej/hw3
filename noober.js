@@ -20,8 +20,6 @@ function pageLoad() {
   } else {levelOfService = 'Noober X'}
   console.log(levelOfService)
 
-  // || ride[0].numberOfPassengers == 1
-
   if (ride.length == 1) {
   passenger1Name = passenger1.passengerDetails.first + ' ' + passenger1.passengerDetails.last
   passenger1Phone = passenger1.passengerDetails.phoneNumber
