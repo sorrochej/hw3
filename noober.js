@@ -12,7 +12,7 @@ function pageLoad() {
   let passenger2 = ride[1]
   let passenger3 = ride[2]
 
-  // let levelOfService = ('Noober X', 'Noober Purple', 'Noober XL')
+  //let levelOfService = ('Noober X', 'Noober Purple', 'Noober XL')
 
   if (ride.length > 1) {levelOfService = 'Noober Pool'
   } else if (ride[0].purpleRequested == true) {levelOfService = 'Noober Purple'
